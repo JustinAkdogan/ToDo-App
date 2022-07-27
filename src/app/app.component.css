@@ -1,0 +1,35 @@
+.task-col{
+  border-right: 2px solid black;
+}
+
+.task-col-grey{
+  background-color: #e9eaed;
+  border-top: 7px solid #828c9d;
+}
+
+.task-col-yellow{
+  background-color: #fef7c6;
+  border-top: 7px solid #e9c700;
+}
+
+.task-col-red{
+  background-color: #ffdcc9;
+  border-top: 7px solid #ff3f00;
+}
+
+.task-name-col{
+  max-height: 30px;
+}
+
+.row-task-icon{
+  max-height: 30px;
+}
+
+.task-icon{
+  width: 5%;
+}
+
+.task-group{
+  width: 90%;
+  margin-top: 0.8%;
+}
