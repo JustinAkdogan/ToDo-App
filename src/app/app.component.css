@@ -17,6 +17,15 @@
   border-top: 7px solid #ff3f00;
 }
 
+.task-col-purple{
+  background-color: #f0def6;
+  border-top: 7px solid #a74fc4;
+}
+
+.task-name{
+  margin-top: 1px;
+}
+
 .task-name-col{
   max-height: 30px;
 }
@@ -33,3 +42,27 @@
   width: 90%;
   margin-top: 0.8%;
 }
+
+.col-md-1{
+  margin-left: 0.4%;
+}
+
+/*
+Checkbox
+ */
+input[type="checkbox"]{
+  border-radius: 1rem;
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+input[type="checkbox"]:checked{
+  background-color: limegreen;
+  border-color: #ffff;
+}
+
+input[type="checkbox"]:focus{
+  box-shadow: none;
+}
+
+
